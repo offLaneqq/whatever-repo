@@ -7,8 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<!DOCTYPE>
-<html>
+    return "<html>
 <head>
     <meta charset="utf-8">
     <title>Хьюстон</title>
