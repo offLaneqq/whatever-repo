@@ -1,0 +1,48 @@
+h1{
+    color: darkblue;
+    text-align: center;
+}
+h2, h3{
+    text-align: center;
+}
+
+.sign{
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+}
+.sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+    text-align: center;
+   }
+.img{
+    float: left; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 5px 5px 0; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */
+}
+.img figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+    text-align: center;
+    word-wrap: normal;
+}
+.top{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table td{
+    border: 1px solid black;
+    text-align: center;
+}
+table th{
+    border: 1px solid black;
+}
+button{
+    background-color: cornsilk;
+}
